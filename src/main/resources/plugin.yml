@@ -1,0 +1,24 @@
+name: FightKing
+version: '${project.version}'
+main: com.gygk.fightking.FightKing
+api-version: 1.19
+commands:
+  arena:
+    description: 竞技场相关命令
+    aliases:
+      - as
+    permission: gygk.arena
+  warp:
+    description: 123
+  setwarp:
+    description: 1324
+    permission: gygk.setwarp
+  adminblock:
+    permission: gygk.adminblock
+permissions:
+  gygk.arena:
+    default: op
+  gygk.setwarp:
+    default: op
+  gygk.adminblock:
+    default: op
